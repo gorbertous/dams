@@ -35,3 +35,4 @@ config/development.php
 config/app_local.php
 nbproject/
 bin/
+.vscode/
