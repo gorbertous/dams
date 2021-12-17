@@ -1,0 +1,28 @@
+{
+    "remotePath": "/var/www/dams",
+    "host": "192.168.198.128",
+    "username": "vitorarantes",
+    "password": "vitorarantes",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": true,
+        "extensionsToInclude": [
+            ".php, .js, .css, .html, .json, .sql"
+        ],
+        "path": ""
+    }
+}

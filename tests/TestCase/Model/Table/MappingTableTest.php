@@ -1,0 +1,44 @@
+<?php
+declare(strict_types=1);
+
+namespace App\Test\TestCase\Model\Table;
+
+use App\Model\Table\MappingTable;
+use Cake\TestSuite\TestCase;
+
+/**
+ * App\Model\Table\MappingTable Test Case
+ */
+class MappingTableTest extends TestCase
+{
+    /**
+     * Test subject
+     *
+     * @var \App\Model\Table\MappingTable
+     */
+    protected $MappingTable;
+
+    /**
+     * setUp method
+     *
+     * @return void
+     */
+    public function setUp(): void
+    {
+        parent::setUp();
+        $config = $this->getTableLocator()->exists('Mapping') ? [] : ['className' => MappingTable::class];
+        $this->MappingTable = $this->getTableLocator()->get('Mapping', $config);
+    }
+
+    /**
+     * tearDown method
+     *
+     * @return void
+     */
+    public function tearDown(): void
+    {
+        unset($this->MappingTable);
+
+        parent::tearDown();
+    }
+}
