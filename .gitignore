@@ -33,3 +33,5 @@ tmp/cache/persistent/damsv2_cake_core_translations.debug_kit.en_US
 tmp/cache/persistent/damsv2_cake_core_translations.default.en_US
 config/development.php
 config/app_local.php
+nbproject/
+bin/
